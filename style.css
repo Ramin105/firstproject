@@ -17,3 +17,18 @@ th {
   border: 1px solid;
 }
 img{border-radius: 100%;}
+
+.baslik1{
+font-size: large;
+}
+
+#ad1{
+    color: red;
+}
+#ad2{
+    color: blue;
+}
+
+#ad3{
+    color: green;
+}
