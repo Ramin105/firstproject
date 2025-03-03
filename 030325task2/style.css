@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+    width: 250px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 img{
+    width: 400px;
+}
+
+.mail1{
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgb(172, 114, 7);
+    padding: 5px;
+}
+input{
+    padding: 15px;
+}
