@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(86, 17, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(86, 17, 176, 1) 0%,
+    rgba(65, 111, 185, 0.5270483193277311) 100%
+  );
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+gap: 50px;
+}
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 13px;
+    overflow: hidden;
+    background-size: cover;
+    box-shadow: 1px 0px 130px 40px rgba(48, 82, 107, 0.5);
+}
+img{
+background-size: cover;
+}
+
+
+
+.category{
+    background: rgb(0,91,223);
+    background: linear-gradient(90deg, rgba(0,91,223,1) 0%, rgba(65,182,185,0.5270483193277311) 100%);
+    border-radius: 15px;
+  display: inline;
+  padding: 4px;
+  
+  margin-top: 10px;
+}
+
+.textbox{
+    margin-left: 10px;
+   margin-top: 8px;
+}
+
+.head{
+    margin-top: 15px;
+}
+
+.lorem{
+    margin-top: 8px ;
+}
+
+.statusfoto{
+    width: 44px;
+    border-radius: 50%;
+}
+
+.status{
+    display: flex;
+    gap: 10px
+    ;
+    margin: 60px 0px 8px 6px
+}
+
+
+.hour{
+    opacity: 0.4;
+}

@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(86, 17, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(86, 17, 176, 1) 0%,
+    rgba(65, 111, 185, 0.5270483193277311) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Big Shoulders", sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 40px
+    ;
+}
+
+.card{
+background-color: rgba(119, 119, 119, 0.459);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.textbox{
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.textbox p{
+    opacity: 0.5;
+}
+.status{
+    background-color: rgba(168, 168, 168, 0.322);
+    display: flex;
+justify-content: space-between;
+}
+
+.status img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px 0px 0px 10px;
+    padding-bottom: 5px;
+}
+
+span{
+    opacity: 0.6;
+}
+b{
+    display: flex   ;
+    align-items: center;
+    margin-left: 6px;
+}
+.status2{
+    display: flex;
+}
+
+.money{
+    background-color: orange;
+
+    padding: 10px;
+}
+
+.imagebox img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.money h2{
+    color: white;
+    font-size: 18px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
